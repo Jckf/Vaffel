@@ -1,0 +1,10 @@
+Change for loops to use map sub.
+
+Finish loading mob data.
+
+Finish loading NPC data.
+Finish NPC buy packet.
+
+Fix "running in place" bug.
+
+Consider changing database access to use DBIx::Class.

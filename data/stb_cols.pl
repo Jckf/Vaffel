@@ -1,0 +1,57 @@
+use warnings;
+
+@{$stb_cols{'list_npc'}} = (
+	'name',
+	'filename',
+	'mspeed_walk',
+	'mspeed_run',
+	'size',
+	'weapon_r',
+	'weapon_l',
+	'level',
+	'hp',
+	'str',
+	'accuracy',
+	'def',
+	'mdef',
+	'flee',
+	'aspeed',
+	'magic',
+	'ai_type',
+	'drop_exp',
+	'drop_item_type',
+	'drop_zulie',
+	'drop_item',
+	'tab_1',
+	'tab_2',
+	'tab_3',
+	'tab_4',
+	'target_type',
+	'attack_range',
+	'type',
+	'texture',
+	'icon',
+	'sound_general',
+	'sound_attack',
+	'sound_attacked',
+	'effect_attack',
+	'effect_die',
+	'sound_die',
+	'editor_data',
+	undef, # Don't know what this is.
+	'party_quest',
+	'effect_glow',
+	'description',
+	'event_die',
+	'hp_2',
+	'attribute',
+	'crash_ox',
+	'crash_index',
+	'crash_x',
+	'crash_y',
+	'crash_z'
+);
+
+@{$stb_cols{'list_sell'}} = (); # I have no idea what anything in there is. Damned korean titles -.-
+
+return 1;
